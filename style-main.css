@@ -1,0 +1,149 @@
+:root{
+    --Z:60vh;
+    --Y:2vh;
+    --X:14vh;
+    --Z1: calc(var(--Z)/3);
+    --X1: calc(var(--X)/3);
+    --Z2: calc(var(--Z)/4);
+    --X2: calc(var(--X)/4);
+    --Z3: calc(var(--Z)/5);
+    --X3: calc(var(--X)/5);
+    --Z4: calc(var(--Z)/6);
+    --X4: calc(var(--X)/6);
+    --Z5: calc(var(--Z)/8);
+    --X5: calc(var(--X)/8);
+}
+body{
+    width: fit-content;
+    margin: 5vh auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vh 0;
+}
+h1{
+    color: #776e67; 
+    margin: 0% 0%;
+    font-size: 100px;
+}
+p{
+    color: #ded0c3;
+}
+/*div{
+    padding: 2vh;
+    background-color: #bbada0;
+}*/
+main{
+    background-color: #bbada0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.5vh;
+    width: calc(var(--Z) + var(--Y));
+    height: calc(var(--Z) + var(--Y));
+    padding: 0.5vh;
+    margin: auto;
+}
+#Datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Acciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Icono{
+    width: 3vh;
+    height: 3vh;
+    color: #f6f6f4;
+    border-radius: 0.5vh;
+}
+.A{
+    border-radius: 0.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.A1{
+    width: var(--Z1);
+    height: var(--Z1);
+    font-size: var(--X1);
+}
+.A2{
+    width: var(--Z2);
+    height: var(--Z2);
+    font-size: var(--X2);
+}
+.A3{
+    width: var(--Z3);
+    height: var(--Z3);
+    font-size: var(--X3);
+}
+.A4{
+    width: var(--Z4);
+    height: var(--Z4);
+    font-size: var(--X4);
+}
+.A5{
+    width: var(--Z5);
+    height: var(--Z5);
+    font-size: var(--X5);
+}
+.A00{
+    background-color: #d6cdc4;
+}
+.A01{
+    background-color: #eee4da;
+}
+.A02{
+    background-color: #ece0c8;
+}
+.A03{
+    background-color: #f2b179;
+}
+.A04{
+    background-color: #f59563;
+}
+.A05{
+    background-color: #f57c5f;
+}
+.A06{
+    background-color: #f65d3b;
+}
+.A07{
+    background-color: #edce71;
+}
+.A08{
+    background-color: #edcc61;
+}
+.A09{
+    background-color: #ecc850;
+}
+.A10{
+    background-color: #edc53f;
+}
+.A11{
+    background-color: #eec22e;
+}
+.A12{
+    background-color:#3d3a33;
+}
+.P1{
+    color: #786e64;
+}
+.P2{
+    color:#f7f3f0
+}

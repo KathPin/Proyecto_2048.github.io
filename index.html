@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel= "stylesheet" href="styles.css">
+        <script src="main.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav  id="Barra" class="navbar bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a id="Icono" class="btn btn-light navbar-brand" href="https://github.com/KathPin">
+                    <img  src="github.svg" alt="Logo" width="45" height="45" class="d-inline-block align-text-top">
+                </a>
+                <div class="card-body">
+                    <h1 id="2048">
+                        Kathia Pineda
+                    </h1>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div id="Seleccion">
+                <div id="Sample">
+                </div>
+                <section>
+                    <div class="Icono">
+                        <img src="angle-left-solid.svg" onclick="Size(false)">
+                    </div>
+                    <label id="T">4x4</label> 
+                    <div class="Icono">
+                        <img src="angle-right-solid.svg" onclick="Size(true)">
+                    </div>
+                </section>
+                <script>
+                    Elements(4);
+                </script>
+            </div>
+            <div id="Botones">
+                <div id="Comenzar-Juego" class="Boton" onclick="Game()">
+                    <p>Comenzar Juego</p>
+                </div>
+                <div id="Puntuaciones-Altas" class="Boton">
+                    <p>Puntuaciones Altas</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
